@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+h1, p {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Light theme */
+.light-theme {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* Dark theme */
+.dark-theme {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+/* Custom background color class */
+.custom-background {
+    background-color: inherit !important;
+}
